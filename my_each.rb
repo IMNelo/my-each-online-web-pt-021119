@@ -6,7 +6,7 @@ def my_each(array)
     yield(array[counter])
     counter += 1
     end
-    #array   #returns the original array
+    array   #returns the original array
   end
 
 my_each(['hi', 'hello', 'bye', 'goodbye']) do |word| word
