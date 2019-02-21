@@ -8,6 +8,8 @@ def my_each(array)
     end
     array   #returns the original array
   end
+
+my_each(['hi', 'hello', 'bye', 'goodbye']) do |word| word
 end
 
 
